@@ -85,7 +85,7 @@ namespace MTSS_split
                     }
 
                     //建立新資料夾NewFolder
-                    string NewFolder = DesPath + "WL_jpg";
+                    string NewFolder = @"D:\LAB\mtss\mTss-file\" + "WL_jpg";
                     System.IO.Directory.CreateDirectory(NewFolder);
 
                     foreach (SetInformation c in infor)
